@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Detalles de la Cuenta Bancaria</title>
+</head>
+<body>
+    <h1>Detalles de la Cuenta Bancaria</h1>
+    <p>Nombre del Titular: <span th:text="${cuentaBancaria.nombreTitular}"></span></p>
+    <p>Edad del Titular: <span th:text="${cuentaBancaria.edadTitular}"></span></p>
+    <p>Cedula del Titular: <span th:text="${cuentaBancaria.cedulaTitular}"></span></p>
+	<p>Email del Titular: <span th:text="${cuentaBancaria.emailTitular}"></span></p>
+	<p>Numero de la cuenta: <span th:text="${cuentaBancaria.numeroCuenta}"></span></p>
+	<p>Saldo de la cuenta: <span th:text="${cuentaBancaria.saldo}"></span></p>
+	   
+    
+</body>
+</html>
